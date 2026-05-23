@@ -1,55 +1,41 @@
 import json
-from sentence_transformers import SentenceTransformer
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from chatbot.preprocess import clean_text
 
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # Load FAQ data
 with open("faq_data.json", "r") as file:
     faq_data = json.load(file)
 
-
-# Extract questions
 questions = [item["question"] for item in faq_data]
+answers = [item["answer"] for item in faq_data]
 
+# Text preprocessing
+stop_words = set(stopwords.words('english'))
 
-# Load AI model
-model = SentenceTransformer("all-MiniLM-L6-v2")
+def preprocess(text):
+    tokens = word_tokenize(text.lower())
+    filtered = [word for word in tokens if word.isalnum() and word not in stop_words]
+    return " ".join(filtered)
 
+processed_questions = [preprocess(q) for q in questions]
 
-# Create embeddings for FAQ questions
-question_embeddings = model.encode(questions)
-
+# TF-IDF Vectorizer
+vectorizer = TfidfVectorizer()
+question_vectors = vectorizer.fit_transform(processed_questions)
 
 def get_response(user_input):
+    processed_input = preprocess(user_input)
 
-    # Clean user input
-    cleaned_input = clean_text(user_input)
+    input_vector = vectorizer.transform([processed_input])
 
-    # Convert user input into embedding
-    user_embedding = model.encode([cleaned_input])
+    similarity = cosine_similarity(input_vector, question_vectors)
 
-    # Calculate similarity
-    similarity_scores = cosine_similarity(
-        user_embedding,
-        question_embeddings
-    )
+    best_match_index = similarity.argmax()
 
-    # Find best matching question
-    best_match_index = similarity_scores.argmax()
-
-    # Get confidence score
-    confidence_score = similarity_scores[0][best_match_index]
-
-    # If confidence too low
-    if confidence_score < 0.40:
-        return {
-            "answer": "Sorry, I couldn't understand your question.",
-            "confidence": confidence_score
-        }
-
-    # Return best answer
-    return {
-        "answer": faq_data[best_match_index]["answer"],
-        "confidence": confidence_score
-    }
+    return answers[best_match_index]
