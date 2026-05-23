@@ -1,0 +1,274 @@
+[
+  {
+    "question": "How can I reset my password?",
+    "answer": "Click on the forgot password option on the login page."
+  },
+  {
+    "question": "How do I contact support?",
+    "answer": "You can contact support at support@synoraai.com."
+  },
+  {
+    "question": "What payment methods are accepted?",
+    "answer": "We accept UPI, debit cards, credit cards, and net banking."
+  },
+  {
+    "question": "How long does delivery take?",
+    "answer": "Delivery usually takes 3 to 5 business days."
+  },
+  {
+    "question": "Can I cancel my order?",
+    "answer": "Yes, you can cancel your order before it is shipped."
+  },
+  {
+    "question": "Do you offer refunds?",
+    "answer": "Yes, refunds are available within 7 days of purchase."
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "You can track your order using the tracking link sent to your email."
+  },
+  {
+    "question": "Is cash on delivery available?",
+    "answer": "Yes, cash on delivery is available in selected locations."
+  },
+  {
+    "question": "hello",
+    "answer": "Hello! Welcome to Synora AI Customer Support. How can I help you today?"
+  },
+  {
+    "question": "hi",
+    "answer": "Hi there! How can I assist you today?"
+  },
+  {
+    "question": "i need help",
+    "answer": "Sure! Please tell me your issue related to orders, refunds, payments, or shipping."
+  },
+  {
+    "question": "how can i get discount",
+    "answer": "You can apply available coupon codes during checkout to get discounts."
+  },
+  {
+    "question": "discount offers",
+    "answer": "Check our homepage regularly for special discounts and seasonal offers."
+  },
+  {
+    "question": "Where is my order?",
+    "answer": "You can track your order from the orders section using your tracking ID."
+  },
+  {
+    "question": "Track my shipment",
+    "answer": "You can track your shipment using the tracking link shared via email."
+  },
+  {
+    "question": "How do I return a product?",
+    "answer": "You can request a return from the orders section within 7 days of delivery."
+  },
+  {
+    "question": "What is your refund policy?",
+    "answer": "Refunds are processed within 5 to 7 business days after approval."
+  },
+  {
+    "question": "How long does refund processing take?",
+    "answer": "Refunds usually take 5 to 7 business days to reflect in your account."
+  },
+  {
+    "question": "Can I exchange a product?",
+    "answer": "Yes, exchanges are available for eligible products."
+  },
+  {
+    "question": "My payment failed",
+    "answer": "Please check your payment details or try another payment method."
+  },
+  {
+    "question": "Why is my payment pending?",
+    "answer": "Payments may take a few minutes to process due to bank verification."
+  },
+  {
+    "question": "Do you support UPI payments?",
+    "answer": "Yes, we support all major UPI payment apps."
+  },
+  {
+    "question": "Can I pay using wallet?",
+    "answer": "Yes, wallet payments are supported on eligible orders."
+  },
+  {
+    "question": "Can I change my delivery address?",
+    "answer": "Yes, delivery address can be changed before the order is shipped."
+  },
+  {
+    "question": "Why is my order delayed?",
+    "answer": "Orders may be delayed due to weather conditions or high order volume."
+  },
+  {
+    "question": "What are the shipping charges?",
+    "answer": "Shipping charges depend on your location and order value."
+  },
+  {
+    "question": "Do you offer free shipping?",
+    "answer": "Yes, free shipping is available on selected orders."
+  },
+  {
+    "question": "Can I order internationally?",
+    "answer": "Currently, international shipping is available in selected countries."
+  },
+  {
+    "question": "How do I create an account?",
+    "answer": "Click on the signup button and enter your details to create an account."
+  },
+  {
+    "question": "I cannot login to my account",
+    "answer": "Please reset your password or check your login credentials."
+  },
+  {
+    "question": "How do I update my profile?",
+    "answer": "You can update your profile from the account settings page."
+  },
+  {
+    "question": "How do I delete my account?",
+    "answer": "Please contact customer support to request account deletion."
+  },
+  {
+    "question": "Are your products genuine?",
+    "answer": "Yes, all products sold are 100% genuine and verified."
+  },
+  {
+    "question": "Is warranty available on products?",
+    "answer": "Warranty availability depends on the product and brand."
+  },
+  {
+    "question": "How can I check product availability?",
+    "answer": "Product availability is shown on the product page."
+  },
+  {
+    "question": "Can I apply multiple coupons?",
+    "answer": "No, only one coupon can be applied per order."
+  },
+  {
+    "question": "Why is my coupon not working?",
+    "answer": "Please check the coupon validity and minimum order conditions."
+  },
+  {
+    "question": "Do you offer seasonal sales?",
+    "answer": "Yes, we regularly offer seasonal and festive sales."
+  },
+  {
+    "question": "Can I modify my order?",
+    "answer": "Order modifications are allowed before shipping confirmation."
+  },
+  {
+    "question": "I received a damaged product",
+    "answer": "Please contact support immediately and upload product images."
+  },
+  {
+    "question": "I received the wrong item",
+    "answer": "We apologize for the inconvenience. Please request a replacement."
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can contact customer support via email or live chat."
+  },
+  {
+    "question": "What are customer support timings?",
+    "answer": "Customer support is available 24/7."
+  },
+  {
+    "question": "Do you provide live chat support?",
+    "answer": "Yes, live chat support is available on our website."
+  },
+  {
+    "question": "Can I save items to wishlist?",
+    "answer": "Yes, you can add products to your wishlist from the product page."
+  },
+  {
+    "question": "How do I remove items from cart?",
+    "answer": "You can remove items from the cart page using the remove option."
+  },
+  {
+    "question": "Can I reorder previous purchases?",
+    "answer": "Yes, previous orders can be reordered from your order history."
+  },
+  {
+    "question": "How do I apply promo code?",
+    "answer": "You can enter the promo code during checkout."
+  },
+  {
+    "question": "Can I schedule delivery time?",
+    "answer": "Scheduled delivery is available in selected locations."
+  },
+  {
+    "question": "What happens if I miss delivery?",
+    "answer": "Delivery will be reattempted based on courier availability."
+  },
+  {
+    "question": "Can I track returned products?",
+    "answer": "Yes, return tracking details are available in your orders section."
+  },
+  {
+    "question": "When will my order arrive?",
+    "answer": "Estimated delivery date is shown on the order tracking page."
+  },
+  {
+    "question": "Do you offer gift wrapping?",
+    "answer": "Yes, gift wrapping is available for selected products."
+  },
+  {
+    "question": "Can I use EMI payment?",
+    "answer": "Yes, EMI options are available for eligible orders."
+  },
+  {
+    "question": "Why was my order cancelled?",
+    "answer": "Orders may be cancelled due to payment failure or stock issues."
+  },
+  {
+    "question": "Can I review products?",
+    "answer": "Yes, customers can review products after delivery."
+  },
+  {
+    "question": "How do I unsubscribe from emails?",
+    "answer": "You can unsubscribe using the unsubscribe link in promotional emails."
+  },
+  {
+    "question": "Do you store card information?",
+    "answer": "No, we do not store your card details."
+  },
+  {
+    "question": "Is online payment secure?",
+    "answer": "Yes, all payments are secured with encryption technology."
+  },
+  {
+    "question": "Can I buy out-of-stock products?",
+    "answer": "Out-of-stock products cannot be purchased until restocked."
+  },
+  {
+    "question": "How do I know my order is confirmed?",
+    "answer": "You will receive an order confirmation email after successful payment."
+  },
+  {
+    "question": "What if my refund is delayed?",
+    "answer": "Please contact your bank or customer support for refund assistance."
+  },
+  {
+    "question": "Can I cancel return requests?",
+    "answer": "Yes, return requests can be cancelled before pickup."
+  },
+  {
+    "question": "Do you provide invoices?",
+    "answer": "Yes, invoices are available in your order history."
+  },
+  {
+    "question": "How do I download invoice?",
+    "answer": "Invoices can be downloaded from the orders section."
+  },
+  {
+    "question": "How do I change language settings?",
+    "answer": "Language preferences can be changed from account settings."
+  },
+  {
+    "question": "Can I contact delivery partner?",
+    "answer": "Delivery partner details are shared once the order is shipped."
+  },
+  {
+    "question": "How do I report a technical issue?",
+    "answer": "Please contact support with screenshots of the issue."
+  }
+]
