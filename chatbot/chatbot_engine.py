@@ -1,22 +1,7 @@
 import json
-import nltk
-
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
-# Download required NLTK data
-try:
-    nltk.data.find("tokenizers/punkt")
-except LookupError:
-    nltk.download("punkt")
-
-try:
-    nltk.data.find("corpora/stopwords")
-except LookupError:
-    nltk.download("stopwords")
 
 # Load FAQ data
 with open("faq_data.json", "r", encoding="utf-8") as file:
@@ -25,25 +10,24 @@ with open("faq_data.json", "r", encoding="utf-8") as file:
 questions = [item["question"] for item in faq_data]
 answers = [item["answer"] for item in faq_data]
 
-# Stopwords
-stop_words = set(stopwords.words("english"))
-
-# Text preprocessing
+# Simple preprocessing
 def preprocess(text):
 
-    words = word_tokenize(text.lower())
+    text = text.lower()
+
+    words = text.split()
 
     filtered_words = [
         word for word in words
-        if word.isalnum() and word not in stop_words
+        if word.isalnum()
     ]
 
     return " ".join(filtered_words)
 
-# Process all FAQ questions
+# Process questions
 processed_questions = [preprocess(q) for q in questions]
 
-# Better TF-IDF Vectorizer
+# TF-IDF vectorizer
 vectorizer = TfidfVectorizer(
     ngram_range=(1, 2),
     sublinear_tf=True
@@ -51,7 +35,7 @@ vectorizer = TfidfVectorizer(
 
 question_vectors = vectorizer.fit_transform(processed_questions)
 
-# Chatbot response function
+# Chatbot response
 def get_response(user_input):
 
     processed_input = preprocess(user_input)
@@ -67,7 +51,6 @@ def get_response(user_input):
 
     best_score = similarity_scores[0][best_match_index]
 
-    # Better confidence threshold
     if best_score >= 0.35:
         return answers[best_match_index]
 
