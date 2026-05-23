@@ -132,9 +132,7 @@ if user_input:
         st.markdown(user_input)
 
     # Get AI response
-    response = get_response(user_input)
-
-    bot_answer = response["answer"]
+    bot_answer = get_response(user_input)
 
     final_response = f"""
 {bot_answer}
