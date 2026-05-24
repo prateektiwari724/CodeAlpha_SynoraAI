@@ -7,7 +7,6 @@
 ![NLP](https://img.shields.io/badge/NLP-NLTK-green?style=for-the-badge)
 ![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Deployed-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
 
 </div>
 
@@ -257,27 +256,6 @@ The chatbot interface includes:
 - User Authentication System
 - Admin Analytics Dashboard
 - Sentiment Analysis for Customer Queries
-
----
-
-# Key Learnings
-
-Through this project, the following concepts were implemented and learned:
-
-- NLP preprocessing
-- TF-IDF vectorization
-- cosine similarity
-- chatbot architecture
-- Streamlit deployment
-- dependency management
-- GitHub version control
-- cloud deployment debugging
-
----
-
-# License
-
-This project is licensed under the MIT License.
 
 ---
 
