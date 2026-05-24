@@ -26,9 +26,7 @@ The chatbot is deployed using Streamlit Cloud and provides an interactive real-t
 
 ## Live Demo
 
-```text
-https://YOUR-STREAMLIT-APP-LINK.streamlit.app
-```
+https://codealphasynoraai-f7uy89bzzrull6q8ktar4r.streamlit.app/
 
 ### Important Note
 
@@ -263,7 +261,7 @@ The chatbot interface includes:
 
 ## Prateek Tiwari
 
-AI/ML Enthusiast | NLP Developer | Python Developer
+AI/ML Enthusiast 
 
 ---
 
