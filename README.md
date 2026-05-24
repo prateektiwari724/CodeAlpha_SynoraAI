@@ -13,7 +13,7 @@
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 Synora AI is an AI-powered FAQ chatbot developed for e-commerce customer support. The chatbot uses Natural Language Processing (NLP) and Machine Learning techniques to understand user queries and return the most relevant FAQ responses.
 
@@ -23,19 +23,19 @@ The chatbot is deployed using Streamlit Cloud and provides an interactive real-t
 
 ---
 
-# 🌐 Live Deployment
+# Live Deployment
 
-## 🔗 Live Demo
+## Live Demo
 
 ```text
 https://YOUR-STREAMLIT-APP-LINK.streamlit.app
 ```
 
-### ⚠️ Important Note
+### Important Note
 
-This project is deployed on the **free tier of Streamlit Cloud**.
+This project is deployed on the free tier of Streamlit Cloud.
 
-If the app remains inactive for approximately **13–15 minutes**, Streamlit automatically puts the application to sleep to save resources.
+If the app remains inactive for approximately 13–15 minutes, Streamlit automatically puts the application to sleep to save resources.
 
 When opening the app again, you may see a:
 
@@ -49,20 +49,20 @@ Simply click that button and wait a few seconds for the app to restart.
 
 ---
 
-# 🚀 Features
+# Features
 
-✅ AI-powered FAQ chatbot  
-✅ NLP preprocessing using NLTK  
-✅ TF-IDF vectorization  
-✅ Cosine similarity-based matching  
-✅ Real-time chatbot UI  
-✅ E-commerce customer support use cases  
-✅ Interactive dark-themed interface  
-✅ Cloud deployment using Streamlit  
+- AI-powered FAQ chatbot
+- NLP preprocessing using NLTK
+- TF-IDF vectorization
+- Cosine similarity-based matching
+- Real-time chatbot UI
+- E-commerce customer support use cases
+- Interactive dark-themed interface
+- Cloud deployment using Streamlit
 
 ---
 
-# 🧠 Complete Tech Stack
+# Complete Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -83,7 +83,7 @@ Simply click that button and wait a few seconds for the app to restart.
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
 User
@@ -107,7 +107,7 @@ Display Response to User
 
 ---
 
-# ⚡ High-Level Pipeline
+# High-Level Pipeline
 
 ```text
 1. User enters query
@@ -121,7 +121,7 @@ Display Response to User
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 SYNORA-AI/
@@ -139,7 +139,7 @@ SYNORA-AI/
 
 ---
 
-# 🔍 NLP Techniques Used
+# NLP Techniques Used
 
 The chatbot uses the following NLP preprocessing techniques:
 
@@ -153,7 +153,7 @@ These preprocessing steps improve similarity matching accuracy and response qual
 
 ---
 
-# 🤖 Machine Learning Workflow
+# Machine Learning Workflow
 
 ## TF-IDF Vectorization
 
@@ -172,7 +172,7 @@ The FAQ with the highest similarity score is selected as the best matching answe
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 The project uses a custom FAQ dataset stored in:
 
@@ -193,9 +193,9 @@ Examples:
 
 ---
 
-# 💡 Sample Use Cases
+# Sample Use Cases
 
-## 🛒 E-Commerce Customer Support
+## E-Commerce Customer Support
 
 Users can ask:
 - “How can I track my order?”
@@ -205,7 +205,7 @@ Users can ask:
 
 ---
 
-## 📦 Shipping & Delivery Assistance
+## Shipping & Delivery Assistance
 
 The chatbot can answer:
 - Shipping timelines
@@ -214,7 +214,7 @@ The chatbot can answer:
 
 ---
 
-## 💳 Payment & Refund Queries
+## Payment & Refund Queries
 
 The chatbot assists users with:
 - Payment status
@@ -223,7 +223,7 @@ The chatbot assists users with:
 
 ---
 
-## 👤 Account & Login Support
+## Account & Login Support
 
 Users can get help with:
 - Password reset
@@ -232,103 +232,35 @@ Users can get help with:
 
 ---
 
-# 🖥️ User Interface
+# User Interface
 
 The chatbot interface includes:
 
-✅ Interactive chat UI  
-✅ Real-time response generation  
-✅ Sidebar support section  
-✅ Modern dark theme  
-✅ Responsive layout  
+- Interactive chat UI
+- Real-time response generation
+- Sidebar support section
+- Modern dark theme
+- Responsive layout
 
 ---
 
-# 🛠️ Installation & Setup
+# Future Improvements
 
-## Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/CodeAlpha_SynoraAI.git
-```
-
----
-
-## Navigate to Project Folder
-
-```bash
-cd CodeAlpha_SynoraAI
-```
+- LLM Integration
+- Semantic Search using Sentence Transformers
+- Retrieval-Augmented Generation (RAG)
+- Vector Database Integration (FAISS / ChromaDB)
+- Conversation Memory
+- Voice Assistant Integration
+- Multi-language Support
+- Real-Time Order Tracking APIs
+- User Authentication System
+- Admin Analytics Dashboard
+- Sentiment Analysis for Customer Queries
 
 ---
 
-## Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
----
-
-## Activate Virtual Environment
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Linux / Mac
-
-```bash
-source venv/bin/activate
-```
-
----
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Run Application
-
-```bash
-streamlit run app.py
-```
-
----
-
-# 📌 Future Improvements
-
-🔹 LLM Integration  
-🔹 Semantic Search using Sentence Transformers  
-🔹 Retrieval-Augmented Generation (RAG)  
-🔹 Vector Database Integration (FAISS / ChromaDB)  
-🔹 Conversation Memory  
-🔹 Voice Assistant Integration  
-🔹 Multi-language Support  
-🔹 Real-Time Order Tracking APIs  
-🔹 User Authentication System  
-🔹 Admin Analytics Dashboard  
-🔹 Sentiment Analysis for Customer Queries  
-
----
-
-# 🎯 Internship Task Requirements Covered
-
-✅ FAQ Dataset Collection  
-✅ NLP Text Preprocessing  
-✅ Cosine Similarity Matching  
-✅ Intelligent Chatbot Responses  
-✅ Interactive Chat UI  
-
----
-
-# 📚 Key Learnings
+# Key Learnings
 
 Through this project, the following concepts were implemented and learned:
 
@@ -343,13 +275,13 @@ Through this project, the following concepts were implemented and learned:
 
 ---
 
-# 📄 License
+# License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 ## Prateek Tiwari
 
@@ -359,6 +291,6 @@ AI/ML Enthusiast | NLP Developer | Python Developer
 
 <div align="center">
 
-⭐ If you like this project, consider giving it a star on GitHub ⭐
+If you like this project, consider giving it a star on GitHub.
 
 </div>
